@@ -1,0 +1,23 @@
+{
+  "name": "Angular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phillip Hall <phillip.hall@leap.com.au>",
+  "license": "ISC",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.28",
+      "es6-shim": "github:es-shims/es6-shim@^0.32.3",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.0",
+      "zone.js": "npm:zone.js@^0.5.1"
+    },
+    "devDependencies": {
+      "typescript": "github:mhegazy/typescript@v1.5-beta2"
+    }
+  }
+}
